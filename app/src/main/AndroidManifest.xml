@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.passwordgenerator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Toolbar"></activity>
+        <activity android:name=".Themes"></activity>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Developer" />
+        <activity android:name=".PasswordStrengthChecker" />
+        <activity android:name=".EmptyImageDisplay" />
+        <activity
+            android:name=".Record_Activity"
+            android:label="PasswordGenerator"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PasswordDisplay"
+            android:label="PasswordGenerator"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="PasswordGenerator" />
+    </application>
+
+</manifest>
