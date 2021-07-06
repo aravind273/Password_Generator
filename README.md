@@ -10,7 +10,7 @@
 
 -> User can delete all the passwords which where saved in the app at one go.
 
--> User can check the strength of the passwords (the password strength is measured on the basis of captial letters,small letters,digits and special characters).
+-> User can check the strength of the passwords (the password strength is measured on the basis of capitals letters,small letters,digits and special characters).
 
 
 
